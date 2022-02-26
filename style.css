@@ -1,0 +1,338 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  color: white;
+}
+body{
+  background-color: #232538;
+}
+header{
+  height: 70px;
+}
+nav{
+  display: flex;
+  float: right;
+}
+h1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px 30px;
+}
+.first_ul{
+  list-style: none;
+  display: flex;
+}
+.first_ul li{
+  margin: 20px 30px;
+}
+.about_us{
+  padding: 5px 0 5px 10px;
+  border: 2px solid goldenrod;
+}
+.sec_ul{
+  list-style: none;
+}
+.sec_ul {
+  border: 0.1px solid white;
+}
+.li{
+  padding: 8px;
+  border: 0.5px solid white;
+}
+.div1::before { 
+  background-image: url('first.jpg');
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 561px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+.div1{
+  height: 561px;
+}
+.ppb{
+  height: 500px;
+  padding-top: 180px;
+  text-align: center;
+}
+.wms{
+  font-size: 15px;
+  padding: 10px 0;
+}
+.os{
+  font-size: 40px;
+  padding: 10px 0;
+}
+.fbtn{
+  background-color: goldenrod;
+  color: white;
+  height: 40px;
+  width: 60px;
+  margin-left: 0;
+}
+.box1{
+  background-color: goldenrod;
+  display: inline-block;
+  position: absolute;
+  top: 432px;
+  left: 80px;
+  height: 135px;
+  width: 300px;
+  padding: 32px;
+}
+.more_info{
+  text-decoration: underline;
+}
+.icon1 ul li{
+  display: inline-block;
+  padding: 22px 44px;
+  background-color: #232538;
+}
+.icon1{
+  position: absolute;
+  top: 564.6px;
+  right: 98px;
+}
+
+.div2{
+  height: 530px;
+}
+.q{
+  border: 0.5px solid white;
+  display: inline;
+  padding: 6px 12px;
+}
+.qdiv{
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.icon2 ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon2 ul li{
+  display: inline-block;
+  padding: 2px;
+}
+#x{
+  position: absolute;
+  left: 205px;
+  top: 820px;
+}
+#y{
+  position: absolute;
+  left: 490px;
+  top: 820px;
+}
+#z{
+  position: absolute;
+  left: 755px;
+  top: 820px;
+}
+#one{
+  position: absolute;
+  top: 900px;
+  left: 100px;
+}
+#two{
+  position: absolute;
+  top: 930px;
+  left: 140px
+}
+#three{
+  position: absolute;
+  top: 880px;
+  left: 50px;
+}
+.bestp{
+  position: absolute;
+  left: 500px;
+  top: 935px;
+}
+.blue{
+  color: #28AEFF;
+}
+.div3{
+  height: 500px;
+}
+.div3::before { 
+  background-image: url('reading room.jpg');
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+.time-title{
+  font-size: 35px;
+  padding: 100px 50px 50px 80px;
+}
+.input1{
+  margin: 10px;
+  margin-left: 22px;
+  opacity: 0.8;
+}
+.form{
+  height: 360px;
+  width: 300px;
+ background-color: #212538BA;
+  position: absolute;
+  right: 50px;
+  top: 1250px;
+  opacity: 1;
+  border-radius:0 50px ;
+}
+.div3 form input{
+  height: 30px;
+  width: 250px;
+  background-color: white;
+}
+form p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 15px;
+}
+form button{
+  background-color: goldenrod;
+  color: white;
+  height: 40px;
+  width: 120px;
+}
+button{
+  margin-left: 90px;
+  margin-top: 5px;
+}
+.time{
+  margin: 0 200px 0 105px;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 75px 80px 100px 100px;
+  
+}
+.time div{
+  background-color: #FDFDFF24;
+}
+
+.time div h2{
+  text-align: center;
+}
+
+.div4{
+  height: 460px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.box div{
+  height: 200px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.card{
+  width: 180px;
+  margin-left: 8px;
+}
+.qq{
+  margin: 50px 0 20px 0;
+}
+.card-title{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px 0;
+}
+.card-text{
+  margin: 10px 10px 10px 10px;
+  color: black;
+}
+.card-btn{
+  margin-top: 1007px;
+  margin-left: 130px;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+}
+.box div a{
+  position: absolute;
+  top: 1108px;
+}
+.profile{
+  width: 40px;
+  margin-left: 15px;
+  position: absolute;
+}
+.h{
+  position: absolute;
+  top: 2180px;
+  left: 470px;
+}
+.hh{
+  position: absolute;
+  top: 2180px;
+  left: 490px;
+}
+.hhh{
+  position: absolute;
+  top: 2180px;
+  left: 510px;
+}
+.div5{
+  height: 601px;
+}
+.div5 form{
+  margin-left: 30px;
+  margin-right: 25px;
+  padding: 30px 22px 0 22px;
+  background-color: #42445A54;
+  display: inline-block;
+  height: 350px;
+}
+.div5 form input{
+  margin: 0 12px 12px 12px;
+  width: 170px;
+  height: 25px;
+  background-color: whitesmoke;
+}
+.div5 form textarea{
+  margin: 0 12px 12px 12px;
+  width: 377px;
+  background-color: whitesmoke;
+}
+.msg-btn{
+  position: absolute;
+  top: 2720px;
+  left: 200px;
+}
+.map{
+  width: 442px;
+  position: absolute;
+}
+footer{
+  background-color: black;
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  font-size: 10px;
+}
+.nabi{
+  color: goldenrod;
+  border-color: goldenrod;
+}
